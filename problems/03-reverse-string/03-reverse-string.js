@@ -1,3 +1,4 @@
+  
 /* 3. Reverse String
 Define function: reverseStr(someStr)
 Reverse and return the String. */
@@ -9,13 +10,13 @@ Reverse and return the String. */
 
 //The original line
 console.log('Reverse the String!');
-const str = 'Reverse the String!';
+const someString = 'Reverse the String!';
 
 
-const newStr = str
+const reverseStr = someString
         .split('') //splits the string into letters in an array 
                     // this allows me to use the reverse function
         .reverse() //Reverses characters in an array
         .join(''); //joins the whitespace between the letters
 
-console.log(newStr);
+console.log(reverseStr);
